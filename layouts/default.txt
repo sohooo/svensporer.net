@@ -20,49 +20,16 @@ filter:    erb
 
    <!--- Scriptaculous Libraries -->
    <script src="/js/prototype.js" type="text/javascript"></script>
-   <script src="/js/scriptaculous.js" type="text/javascript"></script>
+   <script src="/js/scriptaculous.js?load=effects,slider,more" type="text/javascript"></script>
 </head>
 <body>
 
-<script type="text/javascript" language="javascript">
-function trigger() {
-
-  var more = $('more');
-  var headr = $('headr');
-
-  if(more.hasClassName('moreClosed'))
-  {
-    // remove header, show details
-    new Effect.BlindUp(headr);
-    new Effect.BlindDown(more, { queue: 'end', duration: 0.5 });
-
-    headr.addClassName('headrClosed');
-    headr.removeClassName('headrOpen');
-
-    more.addClassName('moreOpen');
-    more.removeClassName('moreClosed');
-  }
-    else
-  {
-    // show header, remove details
-    new Effect.SlideDown(headr);
-    new Effect.BlindUp(more, { queue: 'end', duration: 0.5 });
-
-    headr.addClassName('headrOpen');
-    headr.removeClassName('headrClosed');
-
-    more.addClassName('moreClosed');
-    more.removeClassName('moreOpen');
-
-  }
-}
-</script>
 
 <div class="container">
 
   <div class="column span-14 prepend-2 append-2 first last" id="show">
     <div id="toggle" onclick="trigger(this);">
-      more
+      <span class="more">&harr;</span>
     </div>
   </div>
 
@@ -84,5 +51,6 @@ function trigger() {
   </div>
 
 </div>
+
 </body>
 </html>

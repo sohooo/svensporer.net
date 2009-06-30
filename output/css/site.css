@@ -9,16 +9,25 @@ body {
   width: 710px;
   margin-top: 150px;
   background-color: #fff;
+  border-top: 10px solid #000;
 }
 #show {
-  background-color: #FC0F3E;
 }
 #toggle {
+  margin:0;
   text-align:right;
-  font-size:1.4em;
-  font-weight:bold;
+}
+span.more {
+  font-family: "Times New Roman",Times,Arial,serif;
+  font-size:2em;
   color:#fff;
   cursor: pointer;
+  padding:0 18px;
+  line-height:60%;
+  background-color: #000;
+}
+span.more:hover {
+  color: #bababa;
 }
 /* eww, ugly hack :D */
 p.headroom {margin: 100px 0 0 0;}
