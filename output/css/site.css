@@ -1,0 +1,81 @@
+
+body {
+  font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+  background-color: #696969;
+}
+/* Structure
+ * --------------------------------------------------------------------- */
+.container {
+  width: 710px;
+  margin-top: 150px;
+  background-color: #fff;
+}
+#show {
+  background-color: #FC0F3E;
+}
+#toggle {
+  text-align:right;
+  font-size:1.4em;
+  font-weight:bold;
+  color:#fff;
+  cursor: pointer;
+}
+/* eww, ugly hack :D */
+p.headroom {margin: 100px 0 0 0;}
+p.moreroom {margin: 50px 0 0 0;}
+
+/* Headings
+ * --------------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6 { color: ; }
+
+/* Text Elements
+ * --------------------------------------------------------------------- */
+a                 { color: #FC0F3E; }
+a:hover           { color: #000; }
+a.more            { color: #FC0F3E; }
+blockquote        { color: #666; }
+
+pre {
+  background: #eee;
+  border:     1px solid #ddd;
+}
+
+hr {
+  background: #B2CCFF;
+  color:      #B2CCFF;
+}
+
+/* Tables
+ * --------------------------------------------------------------------- */
+table {
+  border-top:     1px solid #ddd;
+  border-left:    1px solid #ddd;
+}
+th,td {
+  border-bottom:  1px solid #ddd;
+  border-right:   1px solid #ddd;
+}
+
+/* Default Classes
+ * --------------------------------------------------------------------- */
+p.quiet { color: #666; }
+.alt    { color: #666; }
+
+#header p.title {
+  color: #696969;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: bold;
+  font-size: 3em;
+  margin: 40px 0 0 0;
+  line-height:0.7em;
+}
+#header p.tagline {
+  color: #bababa;
+  font-family: Baskerville,Georgia,Times,"Times New Roman",serif;
+  font-size: 2em;
+  font-style: italic;
+  margin-bottom: 0.75em;
+}
+
+
+/* EOF */
