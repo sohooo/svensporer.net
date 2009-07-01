@@ -1,29 +1,41 @@
 ---
-title:       Sven Sporer - web, design &amp; code connoisseur
+title:       Sven Sporer &mdash; web, design &amp; code connoisseur
 created_at:  2008-08-02 14:06:40.000000 -06:00
 filter:
   - erb
   - textile
 ---
 
-* Bio / Work
-** Articles
-** Portfolio
-** etc.
-* Contact
-* Networks
+h2. About
 
-* web, design &amp; code connoisseur
+My name is *Sven Sporer* and I live in Vienna, the beautiful capital of Austria. I have a masters degree in "Information Management &amp; Computer Security":http://www.technikum-wien.at/studium/master/informationsmanagement_und_computersicherheit/ and currently work as a DBA(Database Administrator).
 
-h2. Layout
-* dunkler Hintergrund
-* weisse Visitenkarte
-* Baskerville!
+I'm interested in everything related to __web technology__, __photography__, __design__ and __beautiful code__. That's why I like things to be clean, minimalistic, creative; "intothespirit.com":http://intothespirit.com is a place where I can put those into practice.
 
-h2. Litora Sociis
+h2. Elsewhere
 
-Vivamus euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse vel nibh ut turpis dictum sagittis.
+* blog
+* twitter
+* flickr
+* delicious
+* facebook
+* deviantart
 
-bq. Nullam mattis, odio ut tempus facilisis, metus nisl facilisis metus, auctor consectetuer felis ligula nec mauris. 
+h2. Contact
+
+<div class=contact>
+<span class="email">E-Mail:</span> <a 
+href="mailto:&#115;&#118;&#101;&#110;&#64;&#115;&#118;&#101;&#110;&#115;&#112;&#111;r&#101;&#114;&#46;&#110;&#101;&#116;">&#115;v&#101;&#110;&#64;&#115;&#118;&#101;&#110;sp&#111;r&#101;r&#46;&#110;&#101;t</a>
+<span class="skype">Skype:</span> s.sporer
+</div>
+
+* download vcard (rechtsbündig einfügen)
+* download pgp key
+* icons vor punkte
+* turn page here on front page?
+
+
+
+
 
 
