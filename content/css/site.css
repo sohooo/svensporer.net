@@ -6,8 +6,10 @@ layout:    nil   # no layout
 color:
   border:      "#ddd"
   title:       "#696969"
+  header:      "#000"
+  default:     "#8D8D8D"
   tagline:     "#bababa"
-  link:        "#696969"
+  link:        "#3C3C3C"
   link-hover:  "#FC0F3E"
   blockquote:  "#666"
   box-bg:      "#eee"
@@ -15,11 +17,17 @@ color:
   quiet:       "#666"
   alt:         "#666"
 ---
-
 body {
-  font-size:0.9em;
-  font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+  font-size:12px;
+  /*line-height:1.7;*/
+  font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+  /*font-family: Verdana, "Bitstream Vera Sans", sans-serif;*/
+  /*font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;*/
+
+  /*font-family: "Egyptienne F LT Std", "Egyptienne F Std", "Egyptienne F", Cambria, Georgia, serif;*/
+  color: <%= @page.color['default'] %>;
   background-color: <%= @page.color['title'] %>;
+  background-image:url('/images/bg.jpg');
 }
 /* Structure
  * --------------------------------------------------------------------- */
@@ -28,8 +36,6 @@ body {
   margin-top: 150px;
   background-color: #fff;
   border-top: 10px solid #000;
-}
-#show {
 }
 #toggle {
   margin:0;
@@ -51,19 +57,23 @@ p.moreroom {margin: 50px 0 0 0;}
 
 /* Headings
  * --------------------------------------------------------------------- */
-h1,h2,h3,h4,h5,h6 { color: <%= @page.color['header'] %>; }
-h2 { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
+h1,h2,h3,h4,h5,h6 { color: <%= @page.color['link-hover'] %>; }
+#content h1 {
+  font-family: "Egyptienne F LT Std", "Egyptienne F Std", "Egyptienne F", Cambria, Georgia, serif;
+  /*font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;*/
+  letter-spacing:-0.05em;
+}
 
 /* Text Elements
  * --------------------------------------------------------------------- */
 a {
   color: <%= @page.color['link'] %>;
-  border-bottom: 1px solid <%= @page.color['link'] %>;
+  font-weight: bold;
   text-decoration: none;
 }
 a:hover {
   color: <%= @page.color['link-hover'] %>;
-  border-bottom: 1px solid <%= @page.color['link-hover'] %>;
+  font-weight: bold;
   text-decoration: none;
 }
 blockquote        { color: <%= @page.color['blockquote'] %>; }
@@ -95,7 +105,7 @@ p.quiet { color: <%= @page.color['quiet'] %>; }
 
 #header p.title {
   color: <%= @page.color['title'] %>;
-  font-family: Fertigo, Diavlo, Fontin, "Fontin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:Diavlo, "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing:-0.05em;
   font-size: 2.8em;
   margin: 40px 0 0 0;
@@ -105,13 +115,62 @@ p.quiet { color: <%= @page.color['quiet'] %>; }
   color: <%= @page.color['tagline'] %>;
   font-family: Baskerville, Palatino, 'Palatino Linotype', Georgia, serif;
   letter-spacing:-0.05em;
-  word-spacing: -0.05em;
+  word-spacing: -0.03em;
   line-height:1em;
-  font-size: 2em;
+  font-size: 1.8em;
   font-style: italic;
   margin-bottom: 0.75em;
 }
+#avatar {
+  font-size: 90%;
+  color: <%= @page.color['title'] %>;
+}
+.me img {
+	/*margin-top: 5px;*/
+	border: 4px solid <%= @page.color['border'] %>;
+}
 
-span.email, span.skype { }
+#about p {
+  font-size: 12px;
+  margin-bottom: 1em;
+}
+#elsewhere {
+  margin: 10px 0 20px 0;
+  font-size: 11px;
+}
+#elsewhere .span-3 {width:85px;}
+#elsewhere .last {margin-bottom: 20px;}
+#elsewhere li { list-style:none; }
+span.amp { font-family: Baskerville, Palatino, 'Palatino Linotype', Georgia, serif; }
+
+/* Icons
+ * --------------------------------------------------------------------- */
+span.lifestream, span.twitter, span.flickr, span.delicious, span.facebook, span.lastfm, span.vimeo, span.tumblr, span.dopplr, span.youtube {
+  background-repeat: no-repeat;
+  padding: 0 0 10px 20px;
+  display: block;
+}
+span.lifestream { background-image:url('/images/feed.png'); }
+span.twitter    { background-image:url('/images/twitter.png'); }
+span.flickr     { background-image:url('/images/flickr.png'); }
+span.delicious  { background-image:url('/images/delicious.png'); }
+span.facebook   { background-image:url('/images/facebook.png'); }
+span.lastfm     { background-image:url('/images/lastfm.png'); }
+span.vimeo      { background-image:url('/images/vimeo.png'); }
+span.tumblr     { background-image:url('/images/tumblr.png'); }
+span.dopplr     { background-image:url('/images/dopplr.png'); }
+span.youtube    { background-image:url('/images/youtube.png'); }
+
+/*
+span.email, span.skype, span.card, span.key {
+  background-repeat: no-repeat;
+  padding: 4px 0 10px 40px;
+  display: block;
+}
+span.email      { background-image:url('/images/email.png'); }
+span.skype      { background-image:url('/images/chat.png'); }
+span.card       { background-image:url('/images/contact_32.png'); }
+span.key        { background-image:url('/images/lock.png'); }
+*/
 
 /* EOF */

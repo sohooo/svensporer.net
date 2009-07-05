@@ -6,33 +6,48 @@ filter:
   - textile
 ---
 
-h2. About
+h1. about
 
-My name is *Sven Sporer* and I live in Vienna, the beautiful capital of Austria. I have a masters degree in "Information Management &amp; Computer Security":http://www.technikum-wien.at/studium/master/informationsmanagement_und_computersicherheit/ and currently work as a DBA(Database Administrator).
-
-I'm interested in everything related to __web technology__, __photography__, __design__ and __beautiful code__. That's why I like things to be clean, minimalistic, creative; "intothespirit.com":http://intothespirit.com is a place where I can put those into practice.
-
-h2. Elsewhere
-
-* blog
-* twitter
-* flickr
-* delicious
-* facebook
-* deviantart
-
-h2. Contact
-
-<div class=contact>
-<span class="email">E-Mail:</span> <a 
-href="mailto:&#115;&#118;&#101;&#110;&#64;&#115;&#118;&#101;&#110;&#115;&#112;&#111;r&#101;&#114;&#46;&#110;&#101;&#116;">&#115;v&#101;&#110;&#64;&#115;&#118;&#101;&#110;sp&#111;r&#101;r&#46;&#110;&#101;t</a>
-<span class="skype">Skype:</span> s.sporer
+<div class="column span-5" id="avatar">
+<div class="me">
+  <img src="/images/me.jpg" width="170px" alt="Sven Sporer - that's me">
+</div>
 </div>
 
-* download vcard (rechtsbündig einfügen)
-* download pgp key
-* icons vor punkte
-* turn page here on front page?
+<div class="column span-9 last" id="about">
+Hi, I'm *Sven Sporer* and I live in Vienna, the beautiful capital of Austria. I have a masters degree in "Information Management &amp; Computer Security":http://www.technikum-wien.at/studium/master/informationsmanagement_und_computersicherheit/. Currently, I work as a Oracle and PostgreSQL DBA(Database Administrator).
+
+I'm interested in everything related to __web technology__, __photography__, __design__ and __beautiful code__. "intothespirit.com":http://intothespirit.com is a place where I can put those into practice.
+
+You can contact me via Mail at <span class="email"><a href="mailto:&#115;&#118;&#101;&#110;&#64;&#115;&#118;&#101;&#110;&#115;&#112;&#111;r&#101;&#114;&#46;&#110;&#101;&#116;">&#115;v&#101;&#110;&#64;&#115;&#118;&#101;&#110;sp&#111;r&#101;r&#46;&#110;&#101;t</a></span>.
+</div>
+
+<div class="clear"></div>
+
+h1. elsewhere
+
+<div id="elsewhere">
+  <div class="column span-3 prepend-1 first">
+     <span class="lifestream">Lifestream</span>
+     <span class="twitter">"Twitter":http://twitter.com/sohooo</span>
+  </div>
+  <div class="column span-3">
+     <span class="flickr">"Flickr":http://www.flickr.com/photos/sohooo/</span>
+     <span class="delicious">"Delicious":http://delicious.com/sohooo</span>
+  </div>
+  <div class="column span-3">
+     <span class="dopplr">"Dopplr":http://www.dopplr.com/traveller/sohooo</span>
+     <span class="tumblr">"Tumblr":http://sohooo.tumblr.com</span>
+  </div>
+  <div class="column span-3">
+     <span class="vimeo">"Vimeo":http://vimeo.com/user1603777</span>
+     <span class="youtube">"YouTube":http://www.youtube.com/user/majixify</span>
+  </div>
+  <div class="column span-3 append-1 last">
+     <span class="facebook">"Facebook":http://www.facebook.com/sven.sporer</span>
+     <span class="lastfm">"LastFM":http://www.last.fm/user/sohooo/</span>
+  </div>
+</div>
 
 
 

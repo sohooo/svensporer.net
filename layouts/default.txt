@@ -12,7 +12,7 @@ filter:    erb
    <meta name="author" content="<%= @page.author %>" />
    <meta name="description" content="Sven Sporer &mdash; web, design &amp; code connoisseur">
    <meta name="keywords" content="Sven Sporer, web, design, code, typography, photography, profile">
-   <link rel="icon" href="favicon.ico" type="image/x-icon">
+   <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
    <!--- Blueprint CSS Framework -->
    <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection" />
@@ -26,7 +26,6 @@ filter:    erb
    <script src="/js/scriptaculous.js?load=effects,slider,more" type="text/javascript"></script>
 </head>
 <body>
-
 
 <div class="container">
 
