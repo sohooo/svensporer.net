@@ -21,7 +21,7 @@ filter:    erb
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection" />
 
-   <!--- Scriptaculous Libraries -->
+   <!--- Javascript Libraries -->
    <script src="/js/prototype.js" type="text/javascript"></script>
    <script src="/js/scriptaculous.js?load=effects,slider,more" type="text/javascript"></script>
 </head>
