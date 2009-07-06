@@ -49,7 +49,7 @@ h1(elsewhere). elsewhere
   </div>
 </div>
 
-<div class="column span-18 prepend-1 append-1 first last" id="footer">
+<div class="column span-12 prepend-1 first last" id="footer">
 &copy; Sven Sporer 2008-<%= Time.now.year%>
 credits and thanks: "timvandamme":http://timvandamme.com and "pichfl":http://florianpichler.de for inspiration &middot; "komodomedia":http://www.komodomedia.com/ for icons
 </div>
