@@ -1,3 +1,13 @@
+document.observe('dom:loaded',function() {
+/* dom:loaded event is fired by prototype.js
+   when all html is loaded and the DOM tree built,
+   but not yet all images and css are loaded */
+
+// invoke method .hide() on all elements with class .hideOnLoad
+   $$('#more').invoke('hide');
+
+});
+
 function trigger() {
 
   var more = $('more');

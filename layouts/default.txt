@@ -44,7 +44,7 @@ filter:    erb
   </div>
 
   <div class="column span-14 prepend-2 append-2 first last" id="content">
-    <div id="more" class="moreClosed" style="display:none;">
+    <div id="more" class="moreClosed">
       <p class="moreroom"></p>
       <div>
         <%= @content %>
