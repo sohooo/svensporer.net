@@ -31,7 +31,7 @@ filter:    erb
 
   <div class="column span-14 prepend-2 append-2 first last" id="show">
     <div id="toggle" onclick="trigger(this);">
-      <span class="more" title="&larr; flip the card">&harr;</span>
+      <div id="flip" title="&larr; flip the card">&harr;</div>
     </div>
   </div>
 

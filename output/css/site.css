@@ -22,16 +22,19 @@ body {
   margin:0;
   text-align:right;
 }
-span.more {
+#flip {
   font-family: "Times New Roman",Times,Arial,serif;
   font-size:2em;
+  text-align: center;
   color:#fff;
   cursor: pointer;
-  padding:0 18px;
+  margin-left: 500px;
+  width: 30px;
+  padding:5px 14px;
   line-height:60%;
   background-color: #000;
 }
-span.more:hover { color: #bababa; }
+#flip:hover { color: #bababa; }
 /* eww, ugly hack :D */
 p.headroom {margin: 100px 0 0 0;}
 p.moreroom {margin: 50px 0 0 0;}

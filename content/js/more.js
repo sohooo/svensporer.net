@@ -3,8 +3,17 @@ document.observe('dom:loaded',function() {
    when all html is loaded and the DOM tree built,
    but not yet all images and css are loaded */
 
-// invoke method .hide() on all elements with class .hideOnLoad
+// hide body when js is available
    $$('#more').invoke('hide');
+
+// indicate button to flip page
+   var flip = $('flip');
+   new Effect.Pulsate(flip, {
+     delay: 3,
+     pulses: 3,
+     from: 0.4,
+     duration: 3
+   });
 
 });
 
