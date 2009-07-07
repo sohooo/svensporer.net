@@ -47,13 +47,13 @@ body {
   text-align: center;
   color:#fff;
   cursor: pointer;
-  margin-left: 500px;
+  margin-left: 520px;
   width: 30px;
   padding:5px 14px;
   line-height:60%;
   background-color: #000;
 }
-#flip:hover { color: <%= @page.color['tagline'] %>; }
+#flip:hover { background-color: <%= @page.color['link-hover'] %>; }
 /* eww, ugly hack :D */
 p.headroom {margin: 100px 0 0 0;}
 p.moreroom {margin: 50px 0 0 0;}
