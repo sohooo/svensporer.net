@@ -56,18 +56,18 @@ body {
 #flip:hover { background-color: <%= @page.color['link-hover'] %>; }
 /* eww, ugly hack :D */
 p.headroom {margin: 100px 0 0 0;}
-p.moreroom {margin: 50px 0 0 0;}
+p.moreroom {margin: 20px 0 0 0;}
 
 /* Headings
  * --------------------------------------------------------------------- */
 h1,h2,h3,h4,h5,h6 { color: <%= @page.color['link-hover'] %>; }
 #content h1 {
   font-family: "Egyptienne F LT Std", "Egyptienne F Std", "Egyptienne F", Cambria, Georgia, serif;
-  font-size: 2.6em;
+  font-size: 2.2em;
+  margin-top: 15px;
   /*font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;*/
   letter-spacing:-0.05em;
 }
-h1.elsewhere { margin: 15px 0; }
 
 /* Text Elements
  * --------------------------------------------------------------------- */
@@ -143,13 +143,11 @@ p.quiet { color: <%= @page.color['quiet'] %>; }
   font-size: 12px;
   margin-bottom: 1em;
 }
-#elsewhere {
-  margin: 10px 0 20px 0;
-  font-size: 11px;
-}
-#elsewhere .span-3 {width:85px;}
-#elsewhere .last {margin-bottom: 15px;}
-#elsewhere li { list-style:none; }
+#elsewhere, #projects { font-size: 11px; }
+#projects ul { margin: 0; }
+#elsewhere { margin-bottom: 0; }
+/*#elsewhere .last {margin-bottom: 15px;}*/
+#elsewhere li, #projects li { list-style:none; }
 span.amp { font-family: Baskerville, Palatino, 'Palatino Linotype', Georgia, serif; }
 
 /* Icons

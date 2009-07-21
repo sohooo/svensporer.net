@@ -9,10 +9,10 @@ document.observe('dom:loaded',function() {
 // indicate button to flip page
    var flip = $('flip');
    new Effect.Pulsate(flip, {
-     delay: 3,
-     pulses: 3,
+     delay: 2,
+     pulses: 2,
      from: 0.4,
-     duration: 3
+     duration: 2
    });
 
 });
@@ -37,8 +37,8 @@ function trigger() {
     else
   {
     // show header, remove details
-    new Effect.SlideDown(headr);
-    new Effect.BlindUp(more, { queue: 'end', duration: 0.5 });
+    new Effect.BlindUp(more);
+    new Effect.SlideDown(headr, { queue: 'end', duration: 0.3 });
 
     headr.addClassName('headrOpen');
     headr.removeClassName('headrClosed');

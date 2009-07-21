@@ -18,7 +18,7 @@ filter:    erb
    <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection" />
    <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print" />
 
-   <!-- Homepage CSS -->
+   <!-- Site CSS -->
    <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection" />
 
    <!--- Javascript Libraries -->
