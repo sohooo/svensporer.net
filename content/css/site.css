@@ -13,7 +13,7 @@ color:
   link-hover:  "#FC0F3E"
   blockquote:  "#666"
   box-bg:      "#eee"
-  highlight:   "#B2CCFF"
+  highlight:   "#FC0F3E"
   quiet:       "#d9dada"
   alt:         "#666"
 ---
@@ -149,7 +149,7 @@ p.quiet { color: <%= @page.color['quiet'] %>; }
 /*#elsewhere .last {margin-bottom: 15px;}*/
 #elsewhere li, #projects li { list-style:none; }
 span.amp { font-family: Baskerville, Palatino, 'Palatino Linotype', Georgia, serif; }
-
+span.highlight { <%= @page.color['highlight'] %>; }
 /* Icons
  * --------------------------------------------------------------------- */
 span.lifestream, span.twitter, span.flickr, span.delicious, span.facebook, span.lastfm, span.vimeo, span.tumblr, span.dopplr, span.youtube {

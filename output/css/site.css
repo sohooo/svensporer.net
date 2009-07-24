@@ -69,8 +69,8 @@ pre {
 }
 
 hr {
-  background: #B2CCFF;
-  color:      #B2CCFF;
+  background: #FC0F3E;
+  color:      #FC0F3E;
 }
 
 /* Tables
@@ -130,7 +130,7 @@ p.quiet { color: #d9dada; }
 /*#elsewhere .last {margin-bottom: 15px;}*/
 #elsewhere li, #projects li { list-style:none; }
 span.amp { font-family: Baskerville, Palatino, 'Palatino Linotype', Georgia, serif; }
-
+span.highlight { #FC0F3E; }
 /* Icons
  * --------------------------------------------------------------------- */
 span.lifestream, span.twitter, span.flickr, span.delicious, span.facebook, span.lastfm, span.vimeo, span.tumblr, span.dopplr, span.youtube {

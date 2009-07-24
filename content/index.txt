@@ -9,7 +9,7 @@ h1. about
 
 <div class="column span-5" id="avatar">
 <div class="me">
-  <img src="/images/me.jpg" width="155px" alt="Sven Sporer - that's me">
+  <img src="/images/me.jpg" alt="Sven Sporer - that's me">
 </div>
 </div>
 
@@ -53,7 +53,7 @@ h1. elsewhere
   </div>
   <div class="column span-3">
      <span class="facebook">"Facebook":http://www.facebook.com/sven.sporer</span>
-     <span class="youtube">"Github":http://github.com/sohooo</span>
+     <span class="dopplr">"Dopplr":http://www.dopplr.com/traveller/sohooo</span>
   </div>
   <div class="column span-3">
      <span class="youtube">"YouTube":http://www.youtube.com/user/majixify</span>
