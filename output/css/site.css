@@ -10,6 +10,14 @@ body {
   background-color: #696969;
   background-image:url('/images/bg.jpg');
 }
+/* Embed Diavlo Font
+/* A font by Jos Buivenga (exljbris) -> www.exljbris.com */
+@font-face {
+  font-family: 'Diavlo';
+  src: url('../fonts/Diavlo.eot');
+  src: local('Diavlo'), local('Diavlo'), 
+         url('../fonts/Diavlo.otf') format('opentype');
+}
 /* Structure
  * --------------------------------------------------------------------- */
 .container {
@@ -91,7 +99,7 @@ p.quiet { color: #d9dada; }
 
 #header p.title {
   color: #696969;
-  font-family:Diavlo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:Diavlo, "Graublau Web", "Helvetica Neue", Arial, Helvetica, sans-serif;
   letter-spacing:-0.05em;
   word-spacing: 0.15em;
   font-size: 3.1em;
