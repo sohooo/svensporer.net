@@ -14,7 +14,7 @@ h1. about
 </div>
 
 <div id="about">
-Hi, I'm *Sven Sporer* and I live in Vienna, the beautiful capital of Austria. I have a masters degree in "Information Management &amp; Computer Security":http://www.technikum-wien.at/studium/master/informationsmanagement_und_computersicherheit/. Currently, I work as a Oracle and PostgreSQL DBA(Database Administrator).
+Hi, I'm Sven Sporer and I live in Vienna, the beautiful capital of Austria. I have a masters degree in "Information Management &amp; Computer Security":http://www.technikum-wien.at/studium/master/informationsmanagement_und_computersicherheit/. Currently, I work as a Oracle and PostgreSQL DBA(Database Administrator).
 
 I'm interested in everything related to __web technology__, __photography__, __design__ and __beautiful code__.
 
@@ -25,7 +25,7 @@ h1. elsewhere
 
 <div id="elsewhere">
   <div class="first_col">
-     <p class="flickr">"Flickr":http://www.flickr.com/photos/sohooo/</p>
+     <p class="blog">"Blog":http://blog.intothespirit.com</p>
      <p class="twitter">"Twitter":http://twitter.com/sohooo</p>
   </div>
   <div class="middle_col">
@@ -33,8 +33,8 @@ h1. elsewhere
      <p class="dopplr">"Dopplr":http://www.dopplr.com/traveller/sohooo</p>
   </div>
   <div class="middle_col">
+     <p class="photos">"Photos":http://photos.intothespirit.com</p>
      <p class="youtube">"YouTube":http://www.youtube.com/user/majixify</p>
-     <p class="vimeo">"Vimeo":http://vimeo.com/user1603777</p>
   </div>
   <div class="last_col">
      <p class="delicious">"Delicious":http://delicious.com/sohooo</p>
