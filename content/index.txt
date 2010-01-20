@@ -7,65 +7,43 @@ filter:
 ---
 h1. about
 
-<div class="column span-5" id="avatar">
+<div id="avatar">
 <div class="me">
   <img src="/images/me.jpg" alt="Sven Sporer - that's me">
 </div>
 </div>
 
-<div class="column span-9 last" id="about">
+<div id="about">
 Hi, I'm *Sven Sporer* and I live in Vienna, the beautiful capital of Austria. I have a masters degree in "Information Management &amp; Computer Security":http://www.technikum-wien.at/studium/master/informationsmanagement_und_computersicherheit/. Currently, I work as a Oracle and PostgreSQL DBA(Database Administrator).
 
 I'm interested in everything related to __web technology__, __photography__, __design__ and __beautiful code__.
 
 You can contact me via <span class="email"><a href="mailto:&#115;&#118;&#101;&#110;&#64;&#115;&#118;&#101;&#110;&#115;&#112;&#111;r&#101;&#114;&#46;&#110;&#101;&#116;">&#115;v&#101;&#110;&#64;&#115;&#118;&#101;&#110;sp&#111;r&#101;r&#46;&#110;&#101;t</a></span>.
 </div>
-<div class="clear"></div>
-
-h1(projects). projects
-
-<div id="projects" class="column span-14 first last">
-  <div class="column span-6 prepend-1 first">
-    <dl>
-      <dt>"articles.intothespirit.com":http://articles.intothespirit.com
-        <dd>home of tech-related articles
-      <dt>"stream.intothespirit.com":http://stream.intothespirit.com
-        <dd>lifestream of my web activity
-    </dl>
-  </div>
-  <div class="column span-6 last">
-    <dl>
-      <dt>"stilbruch.tumblr.com":http://stilbruch.tumblr.com
-        <dd>beautiful wallpapers and icons
-      <dt>"blog.intothespirit.com":http://blog.intothespirit.com
-        <dd>Tumblr for misc stuff
-    </dl>
-  </div>
-</div>
-<div class="clear"></div>
 
 h1. elsewhere
 
-<div id="elsewhere" class="column span-14 first last">
-  <div class="column span-3 prepend-1 first">
-     <span class="flickr">"Flickr":http://www.flickr.com/photos/sohooo/</span>
-     <span class="twitter">"Twitter":http://twitter.com/sohooo</span>
+<div id="elsewhere">
+  <div class="first_col">
+     <p class="flickr">"Flickr":http://www.flickr.com/photos/sohooo/</p>
+     <p class="twitter">"Twitter":http://twitter.com/sohooo</p>
   </div>
-  <div class="column span-3">
-     <span class="facebook">"Facebook":http://www.facebook.com/sven.sporer</span>
-     <span class="dopplr">"Dopplr":http://www.dopplr.com/traveller/sohooo</span>
+  <div class="middle_col">
+     <p class="facebook">"Facebook":http://www.facebook.com/sven.sporer</p>
+     <p class="dopplr">"Dopplr":http://www.dopplr.com/traveller/sohooo</p>
   </div>
-  <div class="column span-3">
-     <span class="youtube">"YouTube":http://www.youtube.com/user/majixify</span>
-     <span class="vimeo">"Vimeo":http://vimeo.com/user1603777</span>
+  <div class="middle_col">
+     <p class="youtube">"YouTube":http://www.youtube.com/user/majixify</p>
+     <p class="vimeo">"Vimeo":http://vimeo.com/user1603777</p>
   </div>
-  <div class="column span-3 append-1 last">
-     <span class="delicious">"Delicious":http://delicious.com/sohooo</span>
-     <span class="lastfm">"LastFM":http://www.last.fm/user/sohooo/</span>
+  <div class="last_col">
+     <p class="delicious">"Delicious":http://delicious.com/sohooo</p>
+     <p class="lastfm">"LastFM":http://www.last.fm/user/sohooo/</p>
   </div>
 </div>
 
-<div class="column span-12 prepend-1 first last" id="footer">
+<div id="footer">
 &copy; Sven Sporer 2008-<%= Time.now.year%>
-credits and thanks: "timvandamme":http://timvandamme.com and "pichfl":http://florianpichler.de for inspiration &middot; "komodomedia":http://www.komodomedia.com/ for icons
+credits and thanks to "timvandamme":http://timvandamme.com and "pichfl":http://florianpichler.de for inspiration &middot; "komodomedia":http://www.komodomedia.com/ for icons
+"Jos Buivenga":http://www.exljbris.nl for "Diavlo":http://www.josbuivenga.demon.nl/diavlo.html font &middot; "Compass":http://compass-style.org/ and "Webby":http://webby.rubyforge.org/ for making development a breeze
 </div>

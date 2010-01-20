@@ -8,93 +8,75 @@
    <meta name="author" content="" />
    <meta name="description" content="Sven Sporer &mdash; web, design &amp; code aficionado">
    <meta name="keywords" content="Sven Sporer, web, design, code, typography, photography, profile">
-   <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-   <!--- Blueprint CSS Framework -->
-   <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection" />
-   <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print" />
-
-   <!-- Site CSS -->
-   <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection" />
+  <!-- Compass Blueprint Stylesheets -->
+  <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="css/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if lt IE 8]>
+      <link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
 
    <!--- Javascript Libraries -->
-   <script src="/js/prototype.js" type="text/javascript"></script>
-   <script src="/js/scriptaculous.js?load=effects,slider,more" type="text/javascript"></script>
+   <script src="js/prototype.js" type="text/javascript"></script>
+   <script src="js/scriptaculous.js?load=effects,slider,more" type="text/javascript"></script>
 </head>
 <body>
 
-<div class="container">
+<div id ="container"">
 
-  <div class="column span-14 prepend-2 append-2 first last" id="show">
+  <div id="show">
     <div id="toggle" onclick="trigger(this);">
       <div id="flip" title="&larr; flip the card">&harr;</div>
     </div>
   </div>
 
-  <div class="column span-14 prepend-2 append-2 first last" id="header">
+  <div id="header">
     <div id="headr" class="headOpen">
       <p class="headroom"></p>
       <p class="title">Sven Sporer</p>
-      <p class="tagline">web, design &amp; code aficionado</p>
+      <p class="tagline">web, design <span class="amp">&amp;</span> code aficionado</p>
     </div>
   </div>
 
-  <div class="column span-14 prepend-2 append-2 first last" id="content">
+  <div id="content">
     <div id="more" class="moreClosed">
       <p class="moreroom"></p>
-      <div>
+      <div class="content">
         <h1>about</h1>
-<div class="column span-5" id="avatar">
+<div id="avatar">
 <div class="me">
 <img src="/images/me.jpg" alt="Sven Sporer - that's me">
 </div>
 </div>
-<div class="column span-9 last" id="about">
+<div id="about">
 <p>Hi, I&#8217;m <strong>Sven Sporer</strong> and I live in Vienna, the beautiful capital of Austria. I have a masters degree in <a href="http://www.technikum-wien.at/studium/master/informationsmanagement_und_computersicherheit/">Information Management &amp; Computer Security</a>. Currently, I work as a Oracle and PostgreSQL <acronym title="Database Administrator">DBA</acronym>.</p>
 <p>I&#8217;m interested in everything related to <i>web technology</i>, <i>photography</i>, <i>design</i> and <i>beautiful code</i>.</p>
 <p>You can contact me via <span class="email"><a href="mailto:&#115;&#118;&#101;&#110;&#64;&#115;&#118;&#101;&#110;&#115;&#112;&#111;r&#101;&#114;&#46;&#110;&#101;&#116;">&#115;v&#101;&#110;&#64;&#115;&#118;&#101;&#110;sp&#111;r&#101;r&#46;&#110;&#101;t</a></span>.</p>
 </div>
-<div class="clear"></div>
-<h1 class="projects">projects</h1>
-<div id="projects" class="column span-14 first last">
-<div class="column span-6 prepend-1 first">
-<dl>
-      <dt><a href="http://articles.intothespirit.com">articles.intothespirit.com</a><br />
-        <dd>home of tech-related articles<br />
-      <dt><a href="http://stream.intothespirit.com">stream.intothespirit.com</a><br />
-        <dd>lifestream of my web activity    </dl>
-</div>
-<div class="column span-6 last">
-<dl>
-      <dt><a href="http://stilbruch.tumblr.com">stilbruch.tumblr.com</a><br />
-        <dd>beautiful wallpapers and icons<br />
-      <dt><a href="http://blog.intothespirit.com">blog.intothespirit.com</a><br />
-        <dd>Tumblr for misc stuff    </dl>
-</div>
-</div>
-<div class="clear"></div>
 <h1>elsewhere</h1>
-<div id="elsewhere" class="column span-14 first last">
-<div class="column span-3 prepend-1 first">
-<span class="flickr"><a href="http://www.flickr.com/photos/sohooo/">Flickr</a></span>
-<span class="twitter"><a href="http://twitter.com/sohooo">Twitter</a></span>
+<div id="elsewhere">
+<div class="first_col">
+     <p class="flickr"><a href="http://www.flickr.com/photos/sohooo/">Flickr</a></p>
+     <p class="twitter"><a href="http://twitter.com/sohooo">Twitter</a></p>
 </div>
-<div class="column span-3">
-<span class="facebook"><a href="http://www.facebook.com/sven.sporer">Facebook</a></span>
-<span class="dopplr"><a href="http://www.dopplr.com/traveller/sohooo">Dopplr</a></span>
+<div class="middle_col">
+     <p class="facebook"><a href="http://www.facebook.com/sven.sporer">Facebook</a></p>
+     <p class="dopplr"><a href="http://www.dopplr.com/traveller/sohooo">Dopplr</a></p>
 </div>
-<div class="column span-3">
-<span class="youtube"><a href="http://www.youtube.com/user/majixify">YouTube</a></span>
-<span class="vimeo"><a href="http://vimeo.com/user1603777">Vimeo</a></span>
+<div class="middle_col">
+     <p class="youtube"><a href="http://www.youtube.com/user/majixify">YouTube</a></p>
+     <p class="vimeo"><a href="http://vimeo.com/user1603777">Vimeo</a></p>
 </div>
-<div class="column span-3 append-1 last">
-<span class="delicious"><a href="http://delicious.com/sohooo">Delicious</a></span>
-<span class="lastfm"><a href="http://www.last.fm/user/sohooo/">LastFM</a></span>
+<div class="last_col">
+     <p class="delicious"><a href="http://delicious.com/sohooo">Delicious</a></p>
+     <p class="lastfm"><a href="http://www.last.fm/user/sohooo/">LastFM</a></p>
 </div>
 </div>
-<div class="column span-12 prepend-1 first last" id="footer">
-<p>&copy; Sven Sporer 2008-2009<br />
-credits and thanks: <a href="http://timvandamme.com">timvandamme</a> and <a href="http://florianpichler.de">pichfl</a> for inspiration &middot; <a href="http://www.komodomedia.com/">komodomedia</a> for icons</p>
+<div id="footer">
+<p>&copy; Sven Sporer 2008-2010<br />
+credits and thanks to <a href="http://timvandamme.com">timvandamme</a> and <a href="http://florianpichler.de">pichfl</a> for inspiration &middot; <a href="http://www.komodomedia.com/">komodomedia</a> for icons<br />
+<a href="http://www.exljbris.nl">Jos Buivenga</a> for <a href="http://www.josbuivenga.demon.nl/diavlo.html">Diavlo</a> font &middot; <a href="http://compass-style.org/">Compass</a> and <a href="http://webby.rubyforge.org/">Webby</a> for making development a breeze</p>
 </div>
       </div>
     </div>

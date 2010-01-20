@@ -1,6 +1,7 @@
 #tmp/*
 #log/*
 ._*
+*.sassc
 
 # vim swap files
 *.swp
