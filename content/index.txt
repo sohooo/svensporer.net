@@ -8,9 +8,9 @@ filter:
 h1. about
 
 <div id="avatar">
-<div class="me">
-  <img src="/images/me.jpg" alt="Sven Sporer - that's me">
-</div>
+  <div class="me">
+    <img src="/images/me.jpg" alt="Sven Sporer - that's me" title="Sven Sporer - that's me">
+  </div>
 </div>
 
 <div id="about">
@@ -30,11 +30,11 @@ h1. elsewhere
   </div>
   <div class="middle_col">
      <p class="facebook">"Facebook":http://www.facebook.com/sven.sporer</p>
-     <p class="dopplr">"Dopplr":http://www.dopplr.com/traveller/sohooo</p>
+     <p class="youtube">"YouTube":http://www.youtube.com/user/majixify</p>
   </div>
   <div class="middle_col">
      <p class="photos">"Photos":http://photos.intothespirit.com</p>
-     <p class="youtube">"YouTube":http://www.youtube.com/user/majixify</p>
+     <p class="dopplr">"Dopplr":http://www.dopplr.com/traveller/sohooo</p>
   </div>
   <div class="last_col">
      <p class="delicious">"Delicious":http://delicious.com/sohooo</p>

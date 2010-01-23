@@ -39,7 +39,7 @@ filter:    erb
     <div id="headr" class="headOpen">
       <p class="headroom"></p>
       <p class="title">Sven Sporer</p>
-      <p class="tagline">web, design <span class="amp">&amp;</span> code aficionado</p>
+      <p class="tagline">&mdash; web, design <span class="amp">&amp;</span> code aficionado</p>
     </div>
   </div>
 

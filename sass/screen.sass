@@ -76,6 +76,9 @@ body
   +column(5)
   :font-size 90%
   :color = !sven_bg_color
+  .me img
+    :margin-top 12px
+    :margin-left 10px
 
 #about
   +column(9, true)
@@ -86,6 +89,9 @@ body
   :font-size 11px
   p
     :margin-bottom 0
+    +social-icons
+    a
+      :padding 0 0 10px 20px
   .first_col, .middle_col, .last_col
     +column(3)
   .first_col
@@ -98,4 +104,6 @@ body
   p, a
     :color = !quiet_color
     :font-size 10px
+  a:hover
+    :color = !link_color
 

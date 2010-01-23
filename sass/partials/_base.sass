@@ -42,7 +42,32 @@
   :font-size = !amp_font_size
   :font-weight normal
 
-
+// social icons
+// #navigation ul li
+//   +nav-item("home")
+//   +nav-item("about")
+=icon-for(!name)
+  :background url(/images/#{!name}.png) no-repeat
+  :padding-bottom 10px
+  
+// elsewhere listing
+=social-icons
+  &.blog
+    +icon-for("blog")
+  &.twitter
+    +icon-for("twitter")
+  &.facebook
+    +icon-for("facebook")
+  &.delicious
+    +icon-for("delicious")
+  &.dopplr
+    +icon-for("dopplr")
+  &.photos
+    +icon-for("photos")
+  &.lastfm
+    +icon-for("lastfm")
+  &.youtube
+    +icon-for("youtube")
 
 // Use this to calculate the width based on the total width.
 // Or you can set !blueprint_grid_width to a fixed value and unset !blueprint_container_size -- it will be calculated for you.
