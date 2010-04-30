@@ -2,6 +2,7 @@
 #log/*
 ._*
 *.sassc
+output/*
 
 # vim swap files
 *.swp
