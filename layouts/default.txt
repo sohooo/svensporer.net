@@ -10,8 +10,8 @@ filter:    erb
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title><%= @page.title %></title>
    <meta name="author" content="<%= @page.author %>" />
-   <meta name="description" content="Sven Sporer &mdash; web, design &amp; code aficionado">
-   <meta name="keywords" content="Sven Sporer, web, design, code, typography, photography, profile">
+   <meta name="description" content="Sven Sporer &mdash; web, design &amp; code aficionado" />
+   <meta name="keywords" content="Sven Sporer, web, design, code, typography, photography, profile" />
    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
   <!-- Compass Blueprint Stylesheets -->
