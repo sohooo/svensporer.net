@@ -43,7 +43,7 @@ h1. elsewhere
 </div>
 
 <div id="footer">
-&copy; Sven Sporer 2008-<%= Time.now.year%>
+&copy; Sven Sporer 2008-<%= Time.now.year%> &middot; <a href="files/svensporer.vcf">vCard</a>
 credits and thanks to "timvandamme":http://timvandamme.com and "pichfl":http://florianpichler.de for inspiration &middot; "komodomedia":http://www.komodomedia.com/ for icons
 "Jos Buivenga":http://www.exljbris.nl for "Diavlo":http://www.josbuivenga.demon.nl/diavlo.html font &middot; "Compass":http://compass-style.org/ and "Webby":http://webby.rubyforge.org/ for making development a breeze
 </div>
