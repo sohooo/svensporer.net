@@ -1,3 +1,7 @@
+SITE.user = 'intothes'
+SITE.host = 'intothespirit.com'
+SITE.remote_dir = '~/www/svensporer/'
+
 
 task :default => :build
 
