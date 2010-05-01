@@ -22,30 +22,28 @@ filter:    erb
   <![endif]-->
 
    <!--- Javascript Libraries -->
+  <!--
    <script src="js/prototype.js" type="text/javascript"></script>
    <script src="js/scriptaculous.js?load=effects,slider,more" type="text/javascript"></script>
+-->
+   <script src="js/jquery-1.4.2.js" type="text/javascript"></script>
+   <script src="js/application.js" type="text/javascript"></script>
 </head>
 <body>
 
-<div id ="container"">
+<div id ="container">
 
   <div id="show">
-    <div id="toggle" onclick="trigger(this);">
-      <div id="flip" title="&larr; flip the card">&harr;</div>
-    </div>
+    <div id="flip" title="&larr; flip the card">&harr;</div>
   </div>
 
   <div id="header">
-    <div id="headr" class="headOpen">
-      <p class="headroom"></p>
-      <p class="title">Sven Sporer</p>
-      <p class="tagline">&mdash; web, design <span class="amp">&amp;</span> code aficionado</p>
-    </div>
+    <p class="title">Sven Sporer</p>
+    <p class="tagline">&mdash; web, design <span class="amp">&amp;</span> code aficionado</p>
   </div>
 
   <div id="content">
-    <div id="more" class="moreClosed">
-      <p class="moreroom"></p>
+    <div id="more">
       <div class="content">
         <%= @content %>
       </div>
