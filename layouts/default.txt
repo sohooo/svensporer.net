@@ -12,7 +12,7 @@ filter:    erb
    <meta name="author" content="<%= @page.author %>" />
    <meta name="description" content="Sven Sporer &mdash; web, design &amp; code aficionado" />
    <meta name="keywords" content="Sven Sporer, web, design, code, typography, photography, profile" />
-   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
   <!-- Compass Blueprint Stylesheets -->
   <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />

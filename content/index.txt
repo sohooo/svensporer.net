@@ -9,7 +9,7 @@ h1. about
 
 <div id="avatar">
   <div class="me">
-    <img src="/images/me.jpg" alt="Sven Sporer - that's me" title="Sven Sporer - that's me">
+    <img src="/images/me.jpg" alt="Sven Sporer - that's me" title="Sven Sporer - that's me" />
   </div>
 </div>
 
